@@ -48,8 +48,6 @@ function App() {
   <Route path='/Pay' element={<Pay></Pay>}></Route>
  </Routes>
 </BrowserRouter>
-
-
 </>  );
 }
 
