@@ -1,0 +1,27 @@
+.Heading{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-size: 30px !important;
+    color: black !important;
+}
+#price{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-size: 20px !important;
+    color: black !important;  
+}
+.button{
+    background-color: yellow;
+    color: black;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.pay{
+    background-color: Darkgreen;
+    color: white;
+    width: 200px;
+    font-size: 20px;
+    font-family:fantasy;
+    margin-left: 20px;
+    
+}

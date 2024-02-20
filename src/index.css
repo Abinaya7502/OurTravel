@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.responsive-button {
+  display: block;
+  width: 20%; /* Button takes up 100% width of the container */
+  padding: 10px;
+  height: 40%;
+  background-color: #045234;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 35px;
+  font-family: fantasy;
+  letter-spacing: 2px;
+  position: relative;
+  top: 200px;
+  right: 220px;
+}
+
+.responsive-button:hover {
+  background-color: #42e4a6;
+}
+.login{
+  display: block;
+  width: 20%; /* Button takes up 100% width of the container */
+  padding: 10px;
+  height: 40%;
+  background-color: #045234;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: fantasy;
+}
+.Login:hover {
+  background-color: #42e4a6;
+}

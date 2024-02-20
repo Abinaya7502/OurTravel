@@ -1,0 +1,47 @@
+.register-block {
+    background: url('./Assests/Most-Beautiful-Places-in-Greece-Featured-Image.webp') no-repeat center center fixed;
+    background-size: cover;
+    height:550px;
+  }
+  
+  /* Center align text */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Center align form */
+  .register-sec {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+  }
+  
+  /* Center align form inputs */
+  .register-form {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  /* Center align button */
+  .btn-login {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Center align custom error message */
+  .text-danger {
+    display: block;
+    text-align: center;
+  }
+  
+  /* Center align create new account text */
+  .form-group {
+    text-align: center;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .register-sec {
+      margin-top: 30px; /* Adjust as needed */
+    }
+  }
+  

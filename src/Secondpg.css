@@ -1,0 +1,109 @@
+/* ThreeTextComponent.css */
+.container {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+   }
+   
+   .text {
+     margin-bottom: 10px; /* Add margin between text elements */
+     /* Add additional styling as needed */
+   }
+   /* SearchBar.css */
+.search-bar {
+     display: flex;
+     align-items: center;
+   }
+   
+   input {
+     padding: 8px;
+     margin-right: 5px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+   }
+   
+   button {
+     padding: 8px;
+     background-color: darkgreen;
+     color: #fff;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     height: 50px;
+     width: 50px;
+   }
+   
+   .search{
+     margin-left: 50px;
+     width: 50%;
+     height: 40px;
+     font-size: 20px;
+   }
+   div.gallery {
+     border: 1px solid #ccc;
+   }
+   
+   div.gallery:hover {
+     border: 1px solid #777;
+   }
+   
+   div.gallery img {
+     width: 100%;
+     height: auto;
+   }
+   
+   div.desc {
+     padding: 15px;
+     text-align: center;
+   }
+   
+   * {
+     box-sizing: border-box;
+   }
+   
+   .responsive {
+     padding: 0 6px;
+     float: left;
+     width: 24.99999%;
+   }
+   
+   @media only screen and (max-width: 700px) {
+     .responsive {
+       width: 49.99999%;
+       margin: 6px 0;
+     }
+   }
+   
+   @media only screen and (max-width: 500px) {
+     .responsive {
+       width: 100%;
+     }
+   }
+   
+   .clearfix:after {
+     content: "";
+     display: table;
+     clear: both;
+   }
+   .responsive-button1 {
+     display: block;
+     width: 10%; /* Button takes up 100% width of the container */
+     padding: 10px;
+     height: 40px;
+     background-color: darkgreen;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+     font-size: 15px;
+     font-family: fantasy;
+     letter-spacing: 2px;
+     position: relative;
+     top: 10px;
+     left: 590px;
+   }
+   
+   .responsive-button1:hover {
+     background-color: #42e4a6;
+   }

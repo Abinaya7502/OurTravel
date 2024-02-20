@@ -1,0 +1,45 @@
+.login-block {
+    background: url('./Assests/kerala-tourism.webp') no-repeat center center fixed;
+    background-size: cover;
+    height: 550px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Center align form */
+  .login-sec {
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+  }
+  
+  /* Center align form inputs */
+  .login-form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  /* Center align button */
+  .login7 {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Center align custom error message */
+  .text-danger {
+    display: block;
+    text-align: center;
+  }
+  
+  /* Center align create new account text */
+  .form-group {
+    text-align: center;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .login-sec {
+      margin-top: 30px; /* Adjust as needed */
+    }
+  }
